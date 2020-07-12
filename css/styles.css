@@ -225,9 +225,17 @@ p {
 /* Media Querys */ /* --------------------------------------------------------------------------------------------- */
 
 @media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
   .title-img {
     position: static;
     transform: rotate(0);
+  }
+
+  .title-right {
+    text-align: center;
   }
 
   h1 {
