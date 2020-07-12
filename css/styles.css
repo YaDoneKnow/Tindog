@@ -241,4 +241,9 @@ p {
   h1 {
     text-align: center;
   }
+
+  button.navbar-toggler.collapsed {
+    border-color: white;
+    border-width: 3px;
+  }
 }
